@@ -1,11 +1,12 @@
-package linkedList;
+package StackArray;
+
 public interface StackADT<T> {
 
     public void push(T element);
 
     public T pop();
 
-    public T peak();
+    public T peek();
 
     public boolean isEmpty();
 
